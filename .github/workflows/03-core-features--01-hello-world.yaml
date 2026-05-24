@@ -33,4 +33,5 @@ jobs :
         run : echo "Hello World"
       - name : step 2
         run : echo "Ending World"
-        
+      - name : checking out
+        uses : actions/checkout@v4
