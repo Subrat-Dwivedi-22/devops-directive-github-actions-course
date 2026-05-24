@@ -13,10 +13,10 @@
 name : Hello World
 
 on :
-  workflow_dispatch
+  workflow_dispatch:
 
   jobs:
-    My-first-job:
+    my-first-job:
     runs-on :  ubuntu-24.04
     Steps : 
-      - run: echo "Hello World"
+      - run echo "Hello World"
