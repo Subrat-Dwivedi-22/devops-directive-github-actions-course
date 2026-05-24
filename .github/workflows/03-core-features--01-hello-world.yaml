@@ -10,13 +10,27 @@
 #       - run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
 
 
+# name : Hello World
+
+# on :
+#   workflow_dispatch:
+
+# jobs:
+#   my-first-job:
+#     runs-on :  ubuntu-24.04
+#     steps : 
+#       - run: echo "Hello World"
+
+
 name : Hello World
-
-on :
+on : 
   workflow_dispatch:
-
-jobs:
-  my-first-job:
-    runs-on :  ubuntu-24.04
+jobs : 
+  printing-job : 
+    runs-on : ubuntu-24.04
     steps : 
-      - run: echo "Hello World"
+      step-1 : 
+        - run : echo "My Step 1"
+      Step-2 : 
+        - run : echo "My step 2"
+        - run : echo "THE END"
