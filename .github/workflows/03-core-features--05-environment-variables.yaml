@@ -53,7 +53,7 @@ jobs :
           echo "$WORKFLOW_ENV"
           echo "$JOBS_ENV"
           echo "$STEPS_ENV"
-          exho "STEP_ENV"
+          echo "STEP_ENV"
       - name : step 2
         run : echo "$STEP_ENV"
   job-2 : 
