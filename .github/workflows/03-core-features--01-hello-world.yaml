@@ -29,8 +29,8 @@ jobs :
   printing-job : 
     runs-on : ubuntu-24.04
     steps : 
-      step-1 : 
-        - run : echo "My Step 1"
-      Step-2 : 
-        - run : echo "My step 2"
-        - run : echo "THE END"
+      - name : step 1
+        run : echo "Hello World"
+      - name : step 2
+        run : echo "Ending World"
+        
