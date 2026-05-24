@@ -50,7 +50,7 @@ jobs :
     steps :
       - run : echo "Hello world 3"
   job-4 : 
-    runs-on : ubuntu : 24.04
+    runs-on : ubuntu-24.04
     needs : 
      - job-2
      - job-3
