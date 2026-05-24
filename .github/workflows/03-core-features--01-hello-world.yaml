@@ -18,5 +18,5 @@ on :
 jobs:
   my-first-job:
     runs-on :  ubuntu-24.04
-    Steps : 
-      - run echo "Hello World"
+    steps : 
+      - run: echo "Hello World"
